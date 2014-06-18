@@ -11,7 +11,10 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain) IBOutlet NSTextField *inputText;
+@property (retain) IBOutlet NSTextField *outputText;
+@property (retain) IBOutlet NSPopUpButton *popChoice;
 
-@property (retain) IBOutlet NSTextField *labelText;
+-(IBAction)changeText:(id)sender;
 
 @end

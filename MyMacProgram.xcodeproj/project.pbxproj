@@ -18,6 +18,7 @@
 		4C2BEDAF18CAA9E100C3EFCE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2BED8E18CAA9E100C3EFCE /* Cocoa.framework */; };
 		4C2BEDB718CAA9E100C3EFCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C2BEDB518CAA9E100C3EFCE /* InfoPlist.strings */; };
 		4C2BEDB918CAA9E100C3EFCE /* MyMacProgramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2BEDB818CAA9E100C3EFCE /* MyMacProgramTests.m */; };
+		4C7C8E2618CAC8CB00D82882 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7C8E2518CAC8CB00D82882 /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		4C2BEDB418CAA9E100C3EFCE /* MyMacProgramTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyMacProgramTests-Info.plist"; sourceTree = "<group>"; };
 		4C2BEDB618CAA9E100C3EFCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C2BEDB818CAA9E100C3EFCE /* MyMacProgramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMacProgramTests.m; sourceTree = "<group>"; };
+		4C7C8E2418CAC8CB00D82882 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		4C7C8E2518CAC8CB00D82882 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				4C2BEDA018CAA9E100C3EFCE /* AppDelegate.h */,
 				4C2BEDA118CAA9E100C3EFCE /* AppDelegate.m */,
+				4C7C8E2418CAC8CB00D82882 /* MyClass.h */,
+				4C7C8E2518CAC8CB00D82882 /* MyClass.m */,
 				4C2BEDA318CAA9E100C3EFCE /* MainMenu.xib */,
 				4C2BEDA618CAA9E100C3EFCE /* Images.xcassets */,
 				4C2BED9518CAA9E100C3EFCE /* Supporting Files */,
@@ -252,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7C8E2618CAC8CB00D82882 /* MyClass.m in Sources */,
 				4C2BEDA218CAA9E100C3EFCE /* AppDelegate.m in Sources */,
 				4C2BED9B18CAA9E100C3EFCE /* main.m in Sources */,
 			);
@@ -464,6 +470,7 @@
 				4C2BEDBE18CAA9E100C3EFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C2BEDBF18CAA9E100C3EFCE /* Build configuration list for PBXNativeTarget "MyMacProgramTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				4C2BEDC118CAA9E100C3EFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

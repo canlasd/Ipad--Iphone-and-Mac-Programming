@@ -7,18 +7,23 @@
 //  My first IOS program
 
 #import "AppDelegate.h"
+#import "MyClass.h"
 
 @implementation AppDelegate
 
-@synthesize labelText;
+@synthesize inputText,outputText,popChoice;
+@synthesize window = window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
-    
-    labelText.stringValue=@"Hello";
-    
-    
 }
+    -(IBAction)changeText: (id)sender
+      {
+          outputText.stringValue = popChoice.titleOfSelectedItem;
+      }
+    
+    
+
 
 @end
